@@ -9,7 +9,7 @@ class Api {
     if (response.statusCode == 200) {
       return data;
     } else {
-      s
+      
       throw ('there are an error ${response.statusCode}');
     }
 
